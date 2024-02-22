@@ -18,10 +18,10 @@ Based on the input arguments, the function performs the following processes:
 
 From the returned list of frames, hand-clapping, head-banging, and sitting/standing actions are detected:
 
-- The '[Hand-Clap Detecting ... ]' message is displayed, and the 'handclap.model' function is used to detect the action of clapping hands in the input frame list. The detection results are stored in 'handclap_detections'.
+- The 'handclap.model' function is used to detect the action of clapping hands in the input frame list. The detection results are stored in 'handclap_detections'.
 
-- The '[Head-Banging Detecting ... ]' message is displayed, and the 'headbanging.model' function is used to detect the action of shaking the head in the input frame list. The detection results are stored in 'headbanging_detections'.
+- The 'headbanging.model' function is used to detect the action of shaking the head in the input frame list. The detection results are stored in 'headbanging_detections'.
 
-- The '[Sit-Stand Detecting ... ]' message is displayed, and the 'sitstand.model' function is used to detect the action of sitting and standing up in the input frame list. This function takes the frames and frames per second (fps) as arguments. The detection results are stored in 'sitstand_detections'.
+- The 'sitstand.model' function is used to detect the action of sitting and standing up in the input frame list. This function takes the frames and frames per second (fps) as arguments. The detection results are stored in 'sitstand_detections'.
 
 The detected actions are unified into a single dataframe and saved as './unified.csv'.
