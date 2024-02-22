@@ -1,9 +1,3 @@
-### main.py
-
-#### color(message, color='red')
-
-This function is used to add color to console outputs. It is set to red by default, but can also be set to 'green', 'orange', or 'blue'.
-
 #### main()
 
 This is the main execution function of the program. It uses argparse to receive the following arguments:
