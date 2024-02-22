@@ -1,4 +1,4 @@
-[#### `main()`
+#### `main()`
 
 This is the main execution function of the program. It uses argparse to receive the following arguments:
 
