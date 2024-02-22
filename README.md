@@ -8,6 +8,11 @@ This is the main execution function of the program. It uses argparse to receive 
 - `--mode`: Sets the operation mode. You must select either 'video' or 'eval'.
 - `--path`: Sets the video path in 'video' mode.
 
+
+```bash
+python main.py --crop --sample 5 --save --mode video --path ./example.mp4
+
+
 Based on the input arguments, the function performs the following processes:
 
 - If 'video' mode is selected, frames are extracted from the video path specified by the 'path' argument. If the 'path' argument is empty, an error message is displayed and the program is terminated.
