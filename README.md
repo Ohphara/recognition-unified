@@ -1,4 +1,4 @@
-#### `main()`
+[#### `main()`
 
 This is the main execution function of the program. It uses argparse to receive the following arguments:
 
@@ -26,7 +26,7 @@ From the returned list of frames, hand-clapping, head-banging, and sitting/stand
 
 - The `handclap.model` function is used to detect the action of clapping hands in the input frame list. The detection results are stored in 'handclap_detections'.
 
-- The `headbanging.model` function is used to detect the action of shaking the head in the input frame list. The detection results are stored in 'headbanging_detections'.
+- The `headbanging.model` function is used to detect the action of shaking the head in the input frame list. The detection results are stored in 'headbanging_detections'.]
 
 - The `sitstand.model` function is used to detect the action of sitting and standing up in the input frame list. This function takes the frames and frames per second (fps) as arguments. The detection results are stored in `sitstand_detections`.
 
