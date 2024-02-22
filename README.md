@@ -20,7 +20,7 @@ Based on the input arguments, the function performs the following processes:
 
 - If the `crop` option is enabled, the `Frames Extracting with Crop` message is displayed, and the `loader.find_crop_area` function is used to find the area to be cropped in the video. The frames are sampled at intervals specified by the `sample` argument. The `loader.get_crop_frames` function is used to crop the video based on the found area, and the cropped frames and frames per second (fps) of the video are returned. If the `save` option is enabled, the cropped video file is saved.
 
-- If the `crop` option is disabled, the 'Frames Extracting without Crop' message is displayed, and the `loader.get_frames` function is used to extract frames from the video. The extracted frames and frames per second (fps) of the video are returned.
+- If the `crop` option is disabled, the `Frames Extracting without Crop` message is displayed, and the `loader.get_frames` function is used to extract frames from the video. The extracted frames and frames per second (fps) of the video are returned.
 
 From the returned list of frames, hand-clapping, head-banging, and sitting/standing actions are detected:
 
