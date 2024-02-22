@@ -18,11 +18,11 @@
 
 반환받은 프레임 리스트에서 박수 치기, 머리 흔들기, 앉기/일어서기 동작들을 감지합니다.
 
-- '[Hand-Clap Detecting ... ]' 메시지를 출력하고, 'handclap.model' 함수를 사용하여 입력된 프레임 리스트에서 손뼉치는 동작을 감지합니다. 감지 결과는 'handclap_detections'에 저장됩니다.
+- 'handclap.model' 함수를 사용하여 입력된 프레임 리스트에서 손뼉치는 동작을 감지합니다. 감지 결과는 'handclap_detections'에 저장됩니다.
 
-- '[Head-Banging Detecting ... ]' 메시지를 출력하고, 'headbanging.model' 함수를 사용하여 입력된 프레임 리스트에서 머리를 흔드는 동작을 감지합니다. 감지 결과는 'headbanging_detections'에 저장됩니다.
+- 'headbanging.model' 함수를 사용하여 입력된 프레임 리스트에서 머리를 흔드는 동작을 감지합니다. 감지 결과는 'headbanging_detections'에 저장됩니다.
 
-- '[Sit-Stand Detecting ... ]' 메시지를 출력하고, 'sitstand.model' 함수를 사용하여 입력된 프레임 리스트에서 앉았다 일어서는 동작을 감지합니다. 이 함수는 프레임과 초당 프레임 수(fps)를 인자로 받습니다. 감지 결과는 'sitstand_detections'에 저장됩니다.
+- 'sitstand.model' 함수를 사용하여 입력된 프레임 리스트에서 앉았다 일어서는 동작을 감지합니다. 이 함수는 프레임과 초당 프레임 수(fps)를 인자로 받습니다. 감지 결과는 'sitstand_detections'에 저장됩니다.
 
 감지된 동작들은 통합되어 하나의 데이터프레임으로 만들어지며, './unified.csv'로 저장됩니다.
 
