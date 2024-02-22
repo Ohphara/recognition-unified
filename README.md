@@ -1,4 +1,8 @@
-# **Human-centric Video Crop Algorithm**
+# **Main.py 설명**
+
+## "                 "
+
+- main.py 
 
 ## **I.** Intro
 To accurately detect preschoolers block building behavior, we implemented a cropping algorithm that better reflects the target's radius of action while appropriately removing surrounding objects.
