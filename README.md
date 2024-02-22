@@ -11,7 +11,7 @@ This is the main execution function of the program. It uses argparse to receive 
 
 ```bash
 python main.py --crop --sample 5 --save --mode video --path ./example.mp4
-
+```
 
 Based on the input arguments, the function performs the following processes:
 
