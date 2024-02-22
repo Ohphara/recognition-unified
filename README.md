@@ -1,12 +1,12 @@
-#### main()
+#### `main()`
 
 This is the main execution function of the program. It uses argparse to receive the following arguments:
 
 - `--crop`: If this option is enabled, the input video will be cropped using a crop algorithm.
-- '--sample': Sets the frame sampling interval when the crop option is enabled. The default value is 10.
-- '--save': If this option is enabled, the cropped video file will be saved.
-- '--mode': Sets the operation mode. You must select either 'video' or 'eval'.
-- '--path': Sets the video path in 'video' mode.
+- `--sample`: Sets the frame sampling interval when the crop option is enabled. The default value is 10.
+- `--save`: If this option is enabled, the cropped video file will be saved.
+- `--mode`: Sets the operation mode. You must select either 'video' or 'eval'.
+- `--path`: Sets the video path in 'video' mode.
 
 Based on the input arguments, the function performs the following processes:
 
